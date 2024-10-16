@@ -49,7 +49,6 @@
 #pragma clang diagnostic pop
 #ifdef WITH_CUDA
 #include <ATen/cuda/CUDAContext.h>
-#include <vector_functions.h>
 #else
 #ifndef cudaStream_t
 typedef void* cudaStream_t;
